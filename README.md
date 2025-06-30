@@ -51,34 +51,6 @@ Launches the test runner in interactive watch mode.
 npm run eject
 Note: This is a one-way operation. Once ejected, you can’t go back.
 
-### 📁 Project Structure
-
-ever-green/
-
-│
-
-├── public/
-
-│   └── index.html
-
-│
-
-├── src/
-
-│   ├── App.js
-
-│   ├── App.css
-
-│   └── assets/
-
-│       └── images/
-
-│
-
-├── package.json
-
-└── README.md
-
 ### 📄 License & Credits
 
 This project is part of a personal portfolio and demonstration of frontend development skills, created by Bokang Molepo.
