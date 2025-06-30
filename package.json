@@ -1,7 +1,7 @@
 {
   "name": "ever-green",
   "version": "0.1.0",
-  "homepage": "https://BokangWAV.github.io/evergreen_gardenprojects_website",
+  "homepage": "https://BokangWAV.github.io/ever-green",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "ever-green -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
