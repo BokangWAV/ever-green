@@ -11,7 +11,7 @@ export default function GardeningAdApp() {
       {/* Company Name Top Section with Image */}
       <div className="hero-section">
         <img
-          src="/premium_photo-1673141390230-8b4a3c3152b1.jpeg"
+          src={`${process.env.PUBLIC_URL}/premium_photo-1673141390230-8b4a3c3152b1.jpeg`}
           alt="Gardening background"
           className="hero-image"
         />
@@ -62,7 +62,7 @@ export default function GardeningAdApp() {
         <div className="abous-us-image">
 
           <img
-          src="/premium_photo-1673141390230-8b4a3c3152b1.jpeg"
+          src={`${process.env.PUBLIC_URL}/premium_photo-1673141390230-8b4a3c3152b1.jpeg`}
           alt="Gardening background"
           className="hero-image"
           />
