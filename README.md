@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# 🌿 Ever Green Garden Projects Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official website for **Ever Green Garden Projects PTY (LTD)** — a professional gardening service provider dedicated to transforming outdoor spaces with creativity, care, and sustainable practices.
 
-## Available Scripts
+This website is built using **React** and was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌱 About This Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Ever Green Garden Projects website is designed to showcase:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🌼 A visually rich **hero section** with company branding and imagery
+- 🌿 A clean and informative list of **services offered**
+- 📖 A detailed **About Us** section highlighting the company’s mission and passion
+- ✅ A **Why Choose Us** section outlining client benefits
+- 📍 A **Contact Us** section with location map, email, and phone information
+- 📣 A modern **call-to-action footer** encouraging user engagement
+- ⚖️ A legal **copyright**
+  
+---
 
-### `npm test`
+## 🚀 Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project on your local machine:
 
-### `npm run build`
+### 1. Clone the repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/BokangWAV/ever-green.git
+2. Navigate to the project directory
+cd ever-green
+3. Install dependencies
+npm install
+4. Start the development server
+npm start
+Open your browser and go to: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Available Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In the project directory, you can run the following scripts:
 
-### `npm run eject`
+npm start
+Runs the app in development mode.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm run build
+Builds the app for production to the build folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm test
+Launches the test runner in interactive watch mode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm run eject
+Note: This is a one-way operation. Once ejected, you can’t go back.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📁 Project Structure
 
-## Learn More
+ever-green/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   └── assets/
+│       └── images/
+│
+├── package.json
+└── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 📄 License & Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is part of a personal portfolio and demonstration of frontend development skills, created by Bokang Molepo.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+All rights reserved.
+© 2025 EVER GREEN GARDEN PROJECTS PTY (LTD)
