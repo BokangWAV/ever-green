@@ -394,3 +394,31 @@ html {
   text-decoration: none; /*removes underline */
   margin: 0.5rem;
 }
+
+.reason-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Stack buttons vertically on small screens */
+@media (max-width: 768px) {
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contact-button {
+    text-align: center;
+  }
+}

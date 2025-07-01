@@ -53,13 +53,13 @@ export default function GardeningAdApp() {
              playsInline
             ></video>
             <div className="service-content">
-              <h3>Cleaning Of Paved Areas</h3>
-              <p>We blow and sweep paved areas that have been overrun with leaves and any unwanted dead plants.</p>
+              <h3>Cleaning Paved Areas</h3>
+              <p>We offer blowing and cleaning of paved areas.</p>
             </div>
           </div>
 
           <div className="service-box">
-                        <video
+              <video
              className="service-video"
              src={`${process.env.PUBLIC_URL}/gardening.mp4`}
              autoPlay
@@ -99,7 +99,7 @@ export default function GardeningAdApp() {
             ></video>
             <div className="service-content">
              <h3>Mowing Lawn & Tree Felling</h3>
-             <p>We provide professional lawn mowing that will keep your garden neat and also provide tree felling.  </p>
+             <p>We provide professional lawn mowing as well as tree felling.  </p>
             </div>
           </div>
 
@@ -132,7 +132,34 @@ export default function GardeningAdApp() {
         <h2>Why Choose Ever Green Garden Projects</h2>
         <p>Discover the benefits of choosing us for your gardening needs.</p>
 
+        
+
         <div className="reasons">
+          <div
+            className="reason-box"
+            style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL}/image.jpeg)`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              color: 'white',
+              position: 'relative',
+              borderRadius: '10px',
+              overflow: 'hidden',
+            }}
+          >
+            <div style={{
+
+              height: '100%',
+              width: '100%',
+            }}>
+              <div className="reason-content">
+               <h3>Landscaping For Anyone</h3>
+               <p>Commercial, industrial, residential design and the development of areas, we provide service to anyone.</p>
+              </div>
+            </div>
+          </div>
+
+
           <div
             className="reason-box"
             style={{
@@ -146,12 +173,14 @@ export default function GardeningAdApp() {
             }}
           >
             <div style={{
-              padding: '20px',
+
               height: '100%',
               width: '100%',
             }}>
-              <h3>Experienced Professionals</h3>
-              <p>Our team comprises skilled individuals.</p>
+              <div className="reason-content">
+               <h3>Experienced Professionals</h3>
+               <p>Our team comprises skilled individuals.</p>
+              </div>
             </div>
           </div>
 
@@ -168,12 +197,13 @@ export default function GardeningAdApp() {
             }}
           >
             <div style={{
-              padding: '20px',
               height: '100%',
               width: '100%',
             }}>
-              <h3>Custom Solutions</h3>
-              <p>We offer tailored garden services to meet your unique needs.</p>
+              <div className="reason-content">
+                <h3>Custom Solutions</h3>
+                <p>We offer tailored garden services to meet your unique needs.</p>
+              </div>
             </div>
           </div>
 
@@ -190,12 +220,13 @@ export default function GardeningAdApp() {
             }}
           >
             <div style={{
-              padding: '20px',
               height: '100%',
               width: '100%',
             }}>
+              <div className="reason-content">
               <h3>Quality Assurance</h3>
               <p>We guarantee top-notch service and customer satisfaction every time.</p>
+              </div>
             </div>
           </div>
         </div>
