@@ -375,7 +375,7 @@ body {
   width: 100%;
   object-fit: cover;
   z-index: 0;
-  opacity: 0.2; /* Reduce brightness for better text readability */
+  opacity: 0.15; /* Reduce brightness for better text readability */
 }
 
 .service-content {
